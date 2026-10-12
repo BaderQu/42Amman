@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bader Al-Qutub | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">Bader Al-Qutub</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button type="button" id="themeBtn">Dark mode</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="about">
+      <div class="avatar-box">
+        <img id="avatar" src="assets/photo.jpg" alt="Photo of Bader Al-Qutub" class="photo">
+      </div>
+      <div>
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm Bader Al-Qutub, 24 years old. I graduated last year from Applied Science
+          Private University with a bachelor's degree in cybersecurity and cloud
+          computing. I'm now learning web development to build my own projects.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="card">Cybersecurity</div>
+        <div class="card">Cloud Computing</div>
+        <div class="card">Infrastructure</div>
+        <div class="card">Git &amp; GitHub</div>
+        <div class="card">Organizing tournaments</div>
+        <div class="card">EH</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Project Showcase</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <span class="project-number">00</span>
+          <h3>Project 00: Kali Linux Terminal &amp; Git-GitHub</h3>
+          <p>Worked in the Kali Linux terminal to manage files and folders, then used Git and GitHub to create a repository, commit my work, and push it over SSH, with a README written in Markdown.</p>
+          <a class="btn" href="https://github.com/BaderQu/project00" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">01</span>
+          <h3>Project 01: HTML</h3>
+          <p>Built pages with HTML, covering text hierarchy, links, images, lists, tables, forms and a semantic blog layout.</p>
+          <a class="btn" href="https://github.com/BaderQu/project01" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">02</span>
+          <h3>Project 02: CSS</h3>
+          <p>Styled HTML pages with CSS to control layout, colors, typography and spacing.</p>
+          <a class="btn" href="https://github.com/BaderQu/project02" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">03</span>
+          <h3>Project 03: JavaScript</h3>
+          <p>Built an interactive web page using JavaScript, HTML and CSS, with DOM manipulation and event handling.</p>
+          <a class="btn" href="https://github.com/BaderQu/project03" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <div class="hobbies-grid">
+        <div class="hobby-card">
+          <span class="hobby-icon">🛡️</span>
+          <h3>Cybersecurity</h3>
+          <p>Ethical hacking, networks, and protecting systems.</p>
+        </div>
+        <div class="hobby-card">
+          <span class="hobby-icon">📚</span>
+          <h3>Learning</h3>
+          <p>Picking up new skills and tools every single day.</p>
+        </div>
+        <div class="hobby-card">
+          <span class="hobby-icon">💻</span>
+          <h3>Technology</h3>
+          <p>Exploring new gadgets, cloud, and the latest tech.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p class="section-intro">Feel free to reach out by email, phone, or the form below.</p>
+
+      <div class="contact-info">
+        <a class="contact-card" href="mailto:badernabeel02@gmail.com">
+          <span class="contact-icon">✉️</span>
+          <span class="contact-text">
+            <small>Email</small>
+            <strong>badernabeel02@gmail.com</strong>
+          </span>
+        </a>
+        <a class="contact-card" href="tel:+962785227889">
+          <span class="contact-icon">📞</span>
+          <span class="contact-text">
+            <small>Phone</small>
+            <strong>00962785227889</strong>
+          </span>
+        </a>
+      </div>
+
+      <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+        <p id="formMsg"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Bader Al-Qutub. Built by hand with HTML, CSS and JavaScript.</p>
+  </footer>
+</body>
+</html>
