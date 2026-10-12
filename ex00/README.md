@@ -115,9 +115,4 @@ Alternatively, open `index.html` directly in any modern web browser.
 - Phone: 00962785227889
 - GitHub: [BaderQu](https://github.com/BaderQu)
 
----
 
-## Notes
-
-- The project does not use Bootstrap, Tailwind, WordPress or any other template, as required by the subject.
-- The contact form is handled on the client side only and does not send messages to a server.
